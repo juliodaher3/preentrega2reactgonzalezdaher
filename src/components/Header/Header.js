@@ -6,8 +6,9 @@ const Header = (props) => {
   // console.log(props);
   return (
     <div className="Header">
-      <img src={img} alt="logo" />
+      <img src={img} alt="logo chinpokomon" />
       <h1>{props.title}</h1>
+      
       <h2>{props.subTitle}</h2>
     </div>
   );
